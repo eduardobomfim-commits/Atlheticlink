@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AthleticLink</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #06152B;
+            color: #F1F6FC;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar, .section-dark {
+            background-color: #0B2040;
+        }
+
+        .navbar-brand {
+            color: #08BFEF !important;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .hero {
+            background: linear-gradient(90deg, #06152B, #06152B99),
+            url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80') center/cover;
+            padding: 100px 0;
+        }
+
+        .accent {
+            color: #08BFEF;
+        }
+
+        .btn-accent {
+            background-color: #08BFEF;
+            color: #06152B;
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: #102D50;
+            color: white;
+            border: 1px solid #23466D;
+            height: 100%;
+        }
+
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .section-padding {
+            padding: 65px 0;
+        }
+
+        .muted {
+            color: #B8C9DC;
+        }
+
+        footer {
+            background-color: #04101F;
+            color: #B8C9DC;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="#inicio">ATHLETICLINK</a>
+
+        <button class="navbar-toggler bg-light" type="button"
+            data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#atletas">Atletas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#modalidades">Modalidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<header class="hero" id="inicio">
+    <div class="container">
+        <div class="col-lg-7">
+
+            <p class="accent fw-bold">ESPORTE • OPORTUNIDADE • CONEXÃO</p>
+
+            <h1 class="display-4 fw-bold">
+                Seu talento merece <span class="accent">ser visto.</span>
+            </h1>
+
+            <p class="lead muted">
+                Conectando atletas, projetos e oportunidades esportivas em Camaçari.
+            </p>
+
+            <a href="#atletas" class="btn btn-accent btn-lg mt-3">
+                Conheça os atletas
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<section id="modalidades" class="section-padding">
+    <div class="container">
+
+        <h2 class="fw-bold mb-2">
+            Explore as <span class="accent">modalidades</span>
+        </h2>
+
+        <p class="muted mb-4">
+            Esporte é espaço para talento, dedicação e novas oportunidades.
+        </p>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="futebol.webp" class="card-img-top" alt="Futebol">
+                    <div class="card-body">
+                        <h5>Futebol</h5>
+                        <p class="muted">Espaço para quem vive o futebol e busca novas oportunidades.</p>
+                        <a href="#atletas" class="btn btn-outline-info">Ver atletas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="basquete.avif" class="card-img-top" alt="Basquete">
+                    <div class="card-body">
+                        <h5>Basquete</h5>
+                        <p class="muted">Descubra talentos e iniciativas das quadras.</p>
+                        <a href="#atletas" class="btn btn-outline-info">Ver atletas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="volri.avif" class="card-img-top" alt="Vôlei">
+                    <div class="card-body">
+                        <h5>Vôlei</h5>
+                        <p class="muted">Conheça atletas e projetos voltados ao voleibol.</p>
+                        <a href="#atletas" class="btn btn-outline-info">Ver atletas</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="handeibol.avif" class="card-img-top" alt="Handebol">
+                    <div class="card-body">
+                        <h5>Handebol</h5>
+                        <p class="muted">Uma plataforma para divulgar talentos e equipes.</p>
+                        <a href="#atletas" class="btn btn-outline-info">Ver atletas</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="atletas" class="section-padding section-dark">
+    <div class="container">
+
+        <h2 class="fw-bold mb-2">
+            Atletas em <span class="accent">destaque</span>
+        </h2>
+
+        <p class="muted mb-4">
+            Conheça talentos e suas modalidades esportivas.
+        </p>
+
+        <div id="listaAtletas" class="row g-4">
+        </div>
+
+    </div>
+</section>
+
+<section id="projetos" class="section-padding">
+    <div class="container">
+
+        <h2 class="fw-bold mb-3">
+            Projetos <span class="accent">esportivos</span>
+        </h2>
+
+        <p class="muted">
+            O AthleticLink também busca divulgar iniciativas esportivas locais,
+            aproximando a comunidade de atividades e projetos.
+        </p>
+
+        <div class="row g-4 mt-2">
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Divulgação de iniciativas</h5>
+                        <p class="muted">
+                            Espaço para apresentar projetos, equipes e ações esportivas da região.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Conexão com oportunidades</h5>
+                        <p class="muted">
+                            Aproximar atletas, projetos e pessoas interessadas no esporte.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="section-padding section-dark">
+    <div class="container">
+
+        <h2 class="fw-bold mb-3">
+            Sobre o <span class="accent">AthleticLink</span>
+        </h2>
+
+        <p class="muted">
+            O AthleticLink é um projeto que busca dar visibilidade a talentos
+            esportivos de Camaçari, facilitando a divulgação de atletas,
+            modalidades e projetos. A plataforma pretende valorizar o esporte
+            local e aproximar talentos de novas oportunidades.
+        </p>
+
+        <h4 class="mt-4">Nosso objetivo</h4>
+
+        <p class="muted">
+            Utilizar a tecnologia como ferramenta de divulgação, conexão
+            e valorização do esporte na comunidade.
+        </p>
+
+    </div>
+</section>
+
+<footer class="py-4 text-center">
+    <div class="container">
+        <p class="mb-1">ATHLETICLINK</p>
+        <small>Seu talento merece ser visto.</small>
+        <p class="mt-2 mb-0">Projeto acadêmico • Camaçari - BA</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+const atletas = [
+
+    {
+        nome: "Julia Bordoni",
+        modalidade: "Handebol",
+        imagem: "hand mulher.jpg",
+        descricao: "Atleta de handebol que demonstra agilidade, dedicação e habilidade durante as partidas, buscando sempre evoluir no esporte."
+    },
+
+    {
+        nome: "Matheus Borges",
+        modalidade: "Handebol",
+        imagem: "hand homem.jpg",
+        descricao: "Atleta de handebol que demonstra concentração, controle de bola e dedicação, buscando desenvolver suas habilidades esportivas."
+    },
+
+    {
+        nome: "Lucas Almeida",
+        modalidade: "Futebol",
+        imagem: "futebol homem.jpg",
+        descricao: "Atleta de futebol que busca aprimorar suas habilidades em campo, destacando-se pela dedicação aos treinos e pelo interesse no esporte."
+    },
+
+    {
+        nome: "Mariana Costa",
+        modalidade: "Vôlei",
+        imagem: "volei mulher.jpg",
+        descricao: "Atleta de vôlei que valoriza o trabalho em equipe, a concentração e o desenvolvimento de suas habilidades dentro da quadra."
+    },
+
+    {
+        nome: "Gabriel Santos",
+        modalidade: "Basquete",
+        imagem: "basquete homem.jpg",
+        descricao: "Atleta de basquete que busca desenvolver sua técnica, movimentação e participação em equipe durante os jogos."
+    },
+
+    {
+        nome: "Ana Oliveira",
+        modalidade: "Futebol",
+        imagem: "futebol mulher.jpg",
+        descricao: "Atleta de futebol dedicada ao esporte, que busca desenvolver suas habilidades e participar de novas oportunidades esportivas."
+    },
+
+    {
+        nome: "Pedro Henrique",
+        modalidade: "Vôlei",
+        imagem: "volei homem.jpg",
+        descricao: "Atleta de vôlei interessado em aprimorar seu desempenho, fortalecer o trabalho coletivo e desenvolver suas habilidades na modalidade."
+    },
+
+    {
+        nome: "Beatriz Souza",
+        modalidade: "Basquete",
+        imagem: "basquete mulher.jpg",
+        descricao: "Atleta de basquete que busca evoluir no esporte, valorizando a dedicação, a cooperação e o aprendizado dentro das quadras."
+    }
+
+];
+
+const lista = document.getElementById("listaAtletas");
+
+atletas.forEach(atleta => {
+
+    lista.innerHTML += `
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+
+                <img src="${atleta.imagem}" class="card-img-top"
+                    alt="Foto de ${atleta.nome}">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">${atleta.nome}</h5>
+
+                    <p class="accent">${atleta.modalidade}</p>
+
+                    <p class="muted">
+                        ${atleta.descricao}
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    `;
+
+});
+
+</script>
+
+</body>
+</html>
